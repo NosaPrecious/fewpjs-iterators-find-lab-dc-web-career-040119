@@ -4,7 +4,7 @@ function testFunc() {
   return "hi"
 }
 
-function superbowlWin(record){
+function superbowlWin(recor){
   let result= record.find(teamRecord => {
     teamRecord.result === "w";
   }); 
