@@ -4,10 +4,9 @@ function testFunc() {
   return "hi"
 }
 
-function superbowlWin(arrObj){
-  arrObj.find(team => {
-    team.result === 'w'
-  });
-  
-  return 
+function superbowlWin(record){
+  let result record.find(teamRecord => {
+    teamRecord.result === 'w';
+  }); 
+    return !!result? record.result : undefined;
 }
